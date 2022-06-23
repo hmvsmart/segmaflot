@@ -1,0 +1,34 @@
+{
+  "segmaflotApp": {
+    "personaMoral": {
+      "home": {
+        "title": "Persona Morals",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Persona Moral",
+        "createOrEditLabel": "Create or edit a Persona Moral",
+        "notFound": "No Persona Morals found"
+      },
+      "created": "A new Persona Moral is created with identifier {{ param }}",
+      "updated": "A Persona Moral is updated with identifier {{ param }}",
+      "deleted": "A Persona Moral is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Persona Moral {{ id }}?"
+      },
+      "detail": {
+        "title": "Persona Moral"
+      },
+      "id": "ID",
+      "razonSocial": "Razon Social",
+      "rfc": "Rfc",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "sucursal": "Sucursal",
+      "reporte": "Reporte",
+      "pedido": "Pedido",
+      "persona": "Persona"
+    }
+  }
+}

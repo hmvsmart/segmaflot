@@ -1,0 +1,57 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185710",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "material_servicio",
+  "fields": [
+    {
+      "fieldName": "fecha",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "cantidad",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "MaterialServicio",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "inventario",
+      "otherEntityRelationshipName": "materialServicio",
+      "relationshipName": "inventario",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "servicio",
+      "otherEntityRelationshipName": "materialServicio",
+      "relationshipName": "servicio",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

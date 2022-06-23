@@ -1,0 +1,63 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185646",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "vehiculo",
+  "fields": [
+    {
+      "fieldName": "marca",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "submarca",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modelo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "generacion",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tipoVehiculo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Vehiculo",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "unidad",
+      "otherEntityRelationshipName": "vehiculo",
+      "relationshipName": "unidad",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

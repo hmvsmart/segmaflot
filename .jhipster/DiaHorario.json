@@ -1,0 +1,55 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185642",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "dia_horario",
+  "fields": [
+    {
+      "fieldName": "dia",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "horaEntrada",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "horaSalida",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "DiaHorario",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "horario",
+      "otherEntityRelationshipName": "diaHorario",
+      "relationshipName": "horario",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

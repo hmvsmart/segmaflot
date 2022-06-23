@@ -1,0 +1,88 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185653",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "viaje",
+  "fields": [
+    {
+      "fieldName": "fecha",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "fechaInicio",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "fechaFin",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "horaEmbarque",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "tipoCarga",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "pesoNeto",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "comentarios",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "any"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Viaje",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "itinerario",
+      "otherEntityRelationshipName": "viaje",
+      "relationshipName": "itinerario",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "unidadViaje",
+      "otherEntityRelationshipName": "viaje",
+      "relationshipName": "unidadViaje",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "direccion",
+      "otherEntityRelationshipName": "viaje",
+      "relationshipName": "origen",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

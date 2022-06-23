@@ -1,0 +1,47 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185637",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "tipo_contacto",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "TipoContacto",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "contacto",
+      "otherEntityRelationshipName": "tipoContacto",
+      "relationshipName": "contacto",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

@@ -1,0 +1,31 @@
+{
+  "segmaflotApp": {
+    "empleadoTipoVehiculo": {
+      "home": {
+        "title": "Empleado Tipo Vehiculos",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Empleado Tipo Vehiculo",
+        "createOrEditLabel": "Crear o editar Empleado Tipo Vehiculo",
+        "notFound": "Ningún Empleado Tipo Vehiculos encontrado"
+      },
+      "created": "Un nuevo Empleado Tipo Vehiculo ha sido creado con el identificador {{ param }}",
+      "updated": "Un Empleado Tipo Vehiculo ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Empleado Tipo Vehiculo ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Empleado Tipo Vehiculo {{ id }}?"
+      },
+      "detail": {
+        "title": "Empleado Tipo Vehiculo"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "status": "Status",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "empleado": "Empleado"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "segmaflotApp": {
+    "personaMoral": {
+      "home": {
+        "title": "Persona Morals",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Persona Moral",
+        "createOrEditLabel": "Crear o editar Persona Moral",
+        "notFound": "Ningún Persona Morals encontrado"
+      },
+      "created": "Un nuevo Persona Moral ha sido creado con el identificador {{ param }}",
+      "updated": "Un Persona Moral ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Persona Moral ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Persona Moral {{ id }}?"
+      },
+      "detail": {
+        "title": "Persona Moral"
+      },
+      "id": "ID",
+      "razonSocial": "Razon Social",
+      "rfc": "Rfc",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "sucursal": "Sucursal",
+      "reporte": "Reporte",
+      "pedido": "Pedido",
+      "persona": "Persona"
+    }
+  }
+}

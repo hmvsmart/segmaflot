@@ -1,0 +1,59 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185718",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "pedido",
+  "fields": [
+    {
+      "fieldName": "fecha",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Pedido",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "listaPedido",
+      "otherEntityRelationshipName": "pedido",
+      "relationshipName": "listaPedido",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "ventaPedido",
+      "otherEntityRelationshipName": "pedido",
+      "relationshipName": "ventaPedido",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "personaMoral",
+      "otherEntityRelationshipName": "pedido",
+      "relationshipName": "empresa",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

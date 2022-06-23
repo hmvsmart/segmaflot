@@ -1,0 +1,31 @@
+{
+  "segmaflotApp": {
+    "ubicacionInventario": {
+      "home": {
+        "title": "Ubicacion Inventarios",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Ubicacion Inventario",
+        "createOrEditLabel": "Crear o editar Ubicacion Inventario",
+        "notFound": "Ningún Ubicacion Inventarios encontrado"
+      },
+      "created": "Un nuevo Ubicacion Inventario ha sido creado con el identificador {{ param }}",
+      "updated": "Un Ubicacion Inventario ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Ubicacion Inventario ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Ubicacion Inventario {{ id }}?"
+      },
+      "detail": {
+        "title": "Ubicacion Inventario"
+      },
+      "id": "ID",
+      "status": "Status",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "seccion": "Seccion",
+      "inventario": "Inventario"
+    }
+  }
+}

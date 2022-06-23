@@ -1,0 +1,34 @@
+{
+  "segmaflotApp": {
+    "unidadServicio": {
+      "home": {
+        "title": "Unidad Servicios",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Unidad Servicio",
+        "createOrEditLabel": "Crear o editar Unidad Servicio",
+        "notFound": "Ningún Unidad Servicios encontrado"
+      },
+      "created": "Un nuevo Unidad Servicio ha sido creado con el identificador {{ param }}",
+      "updated": "Un Unidad Servicio ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Unidad Servicio ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Unidad Servicio {{ id }}?"
+      },
+      "detail": {
+        "title": "Unidad Servicio"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "totalEstimado": "Total Estimado",
+      "totalReal": "Total Real",
+      "observacionesGenerales": "Observaciones Generales",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "listaServicio": "Lista Servicio",
+      "cliente": "Cliente"
+    }
+  }
+}

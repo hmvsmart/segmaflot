@@ -1,0 +1,31 @@
+{
+  "segmaflotApp": {
+    "statusCita": {
+      "home": {
+        "title": "Status Citas",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Status Cita",
+        "createOrEditLabel": "Create or edit a Status Cita",
+        "notFound": "No Status Citas found"
+      },
+      "created": "A new Status Cita is created with identifier {{ param }}",
+      "updated": "A Status Cita is updated with identifier {{ param }}",
+      "deleted": "A Status Cita is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Status Cita {{ id }}?"
+      },
+      "detail": {
+        "title": "Status Cita"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "status": "Status",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "cita": "Cita"
+    }
+  }
+}

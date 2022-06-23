@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity Nivel.
+    -->
+    <changeSet id="20220617185658-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="estante_id"
+                                 baseTableName="nivel"
+                                 constraintName="fk_nivel__estante_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="estante"/>
+    </changeSet>
+</databaseChangeLog>

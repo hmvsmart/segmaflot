@@ -1,0 +1,32 @@
+{
+  "segmaflotApp": {
+    "renglonResurtir": {
+      "home": {
+        "title": "Renglon Resurtirs",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Renglon Resurtir",
+        "createOrEditLabel": "Crear o editar Renglon Resurtir",
+        "notFound": "Ningún Renglon Resurtirs encontrado"
+      },
+      "created": "Un nuevo Renglon Resurtir ha sido creado con el identificador {{ param }}",
+      "updated": "Un Renglon Resurtir ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Renglon Resurtir ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Renglon Resurtir {{ id }}?"
+      },
+      "detail": {
+        "title": "Renglon Resurtir"
+      },
+      "id": "ID",
+      "fechaCaducidad": "Fecha Caducidad",
+      "cantidad": "Cantidad",
+      "precioCompra": "Precio Compra",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "resurtir": "Resurtir"
+    }
+  }
+}

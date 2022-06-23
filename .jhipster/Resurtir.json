@@ -1,0 +1,57 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185703",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "resurtir",
+  "fields": [
+    {
+      "fieldName": "fecha",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "total",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Resurtir",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "renglonResurtir",
+      "otherEntityRelationshipName": "resurtir",
+      "relationshipName": "renglonResurtir",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "inventario",
+      "otherEntityRelationshipName": "resurtir",
+      "relationshipName": "inventario",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

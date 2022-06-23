@@ -1,0 +1,107 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185640",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "empleado",
+  "fields": [
+    {
+      "fieldName": "rfc",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nss",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "finicio",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "puesto",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "salario",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "diaPago",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tipoPago",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Empleado",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "empleadoTipoVehiculo",
+      "otherEntityRelationshipName": "empleado",
+      "relationshipName": "empleadoTipoVehiculo",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "experienciaHabilidad",
+      "otherEntityRelationshipName": "empleado",
+      "relationshipName": "experienciaHabilidad",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "licenciaManejo",
+      "otherEntityRelationshipName": "empleado",
+      "relationshipName": "licenciaManejo",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "horario",
+      "otherEntityRelationshipName": "empleado",
+      "relationshipName": "horario",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "operadorUnidad",
+      "otherEntityRelationshipName": "empleado",
+      "relationshipName": "operadorUnidad",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "persona",
+      "otherEntityRelationshipName": "empleado",
+      "relationshipName": "persona",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "sucursal",
+      "otherEntityRelationshipName": "empleado",
+      "relationshipName": "sucursal",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

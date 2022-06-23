@@ -21,9 +21,13 @@ import {
   BAlert,
   BModal,
   VBModal,
+  VBToggle,
   BFormDatepicker,
   BInputGroup,
   BInputGroupPrepend,
+  BIcon,
+  BSidebar,
+  BootstrapVueIcons,
 } from 'bootstrap-vue';
 
 export function initBootstrapVue(vue) {
@@ -50,7 +54,12 @@ export function initBootstrapVue(vue) {
   vue.component('b-nav-item-dropdown', BNavItemDropdown);
   vue.component('b-modal', BModal);
   vue.directive('b-modal', VBModal);
+  vue.directive('b-toggle', VBToggle);
   vue.component('b-form-datepicker', BFormDatepicker);
   vue.component('b-input-group', BInputGroup);
   vue.component('b-input-group-prepend', BInputGroupPrepend);
+  vue.component('b-icon', BIcon);
+  vue.component('b-sidebar', BSidebar);
+
+  vue.use(BootstrapVueIcons);
 }

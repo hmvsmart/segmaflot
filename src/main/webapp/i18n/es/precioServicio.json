@@ -1,0 +1,31 @@
+{
+  "segmaflotApp": {
+    "precioServicio": {
+      "home": {
+        "title": "Precio Servicios",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Precio Servicio",
+        "createOrEditLabel": "Crear o editar Precio Servicio",
+        "notFound": "Ningún Precio Servicios encontrado"
+      },
+      "created": "Un nuevo Precio Servicio ha sido creado con el identificador {{ param }}",
+      "updated": "Un Precio Servicio ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Precio Servicio ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Precio Servicio {{ id }}?"
+      },
+      "detail": {
+        "title": "Precio Servicio"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "costo": "Costo",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "servicio": "Servicio"
+    }
+  }
+}

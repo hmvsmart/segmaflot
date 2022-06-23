@@ -1,0 +1,53 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185658",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "nivel",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Nivel",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "seccion",
+      "otherEntityRelationshipName": "nivel",
+      "relationshipName": "seccion",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "estante",
+      "otherEntityRelationshipName": "nivel",
+      "relationshipName": "estante",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

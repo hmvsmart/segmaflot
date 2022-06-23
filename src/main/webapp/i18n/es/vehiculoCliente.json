@@ -1,0 +1,33 @@
+{
+  "segmaflotApp": {
+    "vehiculoCliente": {
+      "home": {
+        "title": "Vehiculo Clientes",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Vehiculo Cliente",
+        "createOrEditLabel": "Crear o editar Vehiculo Cliente",
+        "notFound": "Ningún Vehiculo Clientes encontrado"
+      },
+      "created": "Un nuevo Vehiculo Cliente ha sido creado con el identificador {{ param }}",
+      "updated": "Un Vehiculo Cliente ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Vehiculo Cliente ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Vehiculo Cliente {{ id }}?"
+      },
+      "detail": {
+        "title": "Vehiculo Cliente"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "numeroSerie": "Numero Serie",
+      "color": "Color",
+      "status": "Status",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "cliente": "Cliente"
+    }
+  }
+}

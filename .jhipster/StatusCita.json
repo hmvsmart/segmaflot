@@ -1,0 +1,52 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185715",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "status_cita",
+  "fields": [
+    {
+      "fieldName": "fecha",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "TipoStatusCita",
+      "fieldValues": "Activa,Cancelada,Pospuesta,Atendida"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "StatusCita",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "cita",
+      "otherEntityRelationshipName": "statusCita",
+      "relationshipName": "cita",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

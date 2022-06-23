@@ -1,0 +1,95 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185647",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "unidad",
+  "fields": [
+    {
+      "fieldName": "fecha",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "numeroSerie",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kmActual",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "tipoAdquisicion",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "imagen",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "any"
+    },
+    {
+      "fieldName": "color",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descripcion",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "any"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Unidad",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "aditamentoUnidad",
+      "otherEntityRelationshipName": "unidad",
+      "relationshipName": "aditamentoUnidad",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "poliza",
+      "otherEntityRelationshipName": "unidad",
+      "relationshipName": "poliza",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "unidadViaje",
+      "otherEntityRelationshipName": "unidad",
+      "relationshipName": "unidadViaje",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "vehiculo",
+      "otherEntityRelationshipName": "unidad",
+      "relationshipName": "vehiculo",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

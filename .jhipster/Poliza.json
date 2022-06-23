@@ -1,0 +1,55 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185648",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "poliza",
+  "fields": [
+    {
+      "fieldName": "fecha",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "fechaVencimiento",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "numeroPoliza",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Poliza",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "unidad",
+      "otherEntityRelationshipName": "poliza",
+      "relationshipName": "unidad",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

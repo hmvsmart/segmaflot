@@ -1,0 +1,33 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185631",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "colonia",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Colonia",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "direccion",
+      "otherEntityRelationshipName": "colonia",
+      "relationshipName": "direccion",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "cP",
+      "otherEntityRelationshipName": "colonia",
+      "relationshipName": "cp",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

@@ -1,0 +1,61 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185656",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "operador_unidad",
+  "fields": [
+    {
+      "fieldName": "fecha",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "rol",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "OperadorUnidad",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "unidadViaje",
+      "otherEntityRelationshipName": "operadorUnidad",
+      "relationshipName": "unidasViaje",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "empleado",
+      "otherEntityRelationshipName": "operadorUnidad",
+      "relationshipName": "empleado",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

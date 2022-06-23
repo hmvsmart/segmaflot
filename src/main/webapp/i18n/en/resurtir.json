@@ -1,0 +1,32 @@
+{
+  "segmaflotApp": {
+    "resurtir": {
+      "home": {
+        "title": "Resurtirs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Resurtir",
+        "createOrEditLabel": "Create or edit a Resurtir",
+        "notFound": "No Resurtirs found"
+      },
+      "created": "A new Resurtir is created with identifier {{ param }}",
+      "updated": "A Resurtir is updated with identifier {{ param }}",
+      "deleted": "A Resurtir is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Resurtir {{ id }}?"
+      },
+      "detail": {
+        "title": "Resurtir"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "total": "Total",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "renglonResurtir": "Renglon Resurtir",
+      "inventario": "Inventario"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185635",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "persona_moral",
+  "fields": [
+    {
+      "fieldName": "razonSocial",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "rfc",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "PersonaMoral",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "sucursal",
+      "otherEntityRelationshipName": "empresa",
+      "relationshipName": "sucursal",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "reporte",
+      "otherEntityRelationshipName": "empresa",
+      "relationshipName": "reporte",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "pedido",
+      "otherEntityRelationshipName": "empresa",
+      "relationshipName": "pedido",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "persona",
+      "otherEntityRelationshipName": "personaMoral",
+      "relationshipName": "persona",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

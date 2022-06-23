@@ -1,0 +1,55 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185704",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "renglon_resurtir",
+  "fields": [
+    {
+      "fieldName": "fechaCaducidad",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "cantidad",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "precioCompra",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "RenglonResurtir",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "resurtir",
+      "otherEntityRelationshipName": "renglonResurtir",
+      "relationshipName": "resurtir",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

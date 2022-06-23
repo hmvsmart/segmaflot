@@ -1,0 +1,57 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185705",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "precio_venta",
+  "fields": [
+    {
+      "fieldName": "fecha",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "ppu",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "PrecioVenta",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "renglonVenta",
+      "otherEntityRelationshipName": "precioventa",
+      "relationshipName": "renglonVenta",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "inventario",
+      "otherEntityRelationshipName": "precioVenta",
+      "relationshipName": "inventario",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

@@ -1,0 +1,51 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185654",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "itinerario",
+  "fields": [
+    {
+      "fieldName": "accion",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fechaHoraEstimada",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Itinerario",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "viaje",
+      "otherEntityRelationshipName": "itinerario",
+      "relationshipName": "viaje",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

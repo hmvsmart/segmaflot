@@ -1,0 +1,57 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185706",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "venta",
+  "fields": [
+    {
+      "fieldName": "fecha",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "total",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Venta",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "renglonVenta",
+      "otherEntityRelationshipName": "venta",
+      "relationshipName": "renglonVenta",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "ventaPedido",
+      "otherEntityRelationshipName": "venta",
+      "relationshipName": "ventaPedido",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

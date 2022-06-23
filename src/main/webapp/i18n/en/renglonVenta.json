@@ -1,0 +1,31 @@
+{
+  "segmaflotApp": {
+    "renglonVenta": {
+      "home": {
+        "title": "Renglon Ventas",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Renglon Venta",
+        "createOrEditLabel": "Create or edit a Renglon Venta",
+        "notFound": "No Renglon Ventas found"
+      },
+      "created": "A new Renglon Venta is created with identifier {{ param }}",
+      "updated": "A Renglon Venta is updated with identifier {{ param }}",
+      "deleted": "A Renglon Venta is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Renglon Venta {{ id }}?"
+      },
+      "detail": {
+        "title": "Renglon Venta"
+      },
+      "id": "ID",
+      "cantidad": "Cantidad",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "venta": "Venta",
+      "precioventa": "Precioventa"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "segmaflotApp": {
+    "tipoContacto": {
+      "home": {
+        "title": "Tipo Contactos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Tipo Contacto",
+        "createOrEditLabel": "Create or edit a Tipo Contacto",
+        "notFound": "No Tipo Contactos found"
+      },
+      "created": "A new Tipo Contacto is created with identifier {{ param }}",
+      "updated": "A Tipo Contacto is updated with identifier {{ param }}",
+      "deleted": "A Tipo Contacto is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Tipo Contacto {{ id }}?"
+      },
+      "detail": {
+        "title": "Tipo Contacto"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "contacto": "Contacto"
+    }
+  }
+}

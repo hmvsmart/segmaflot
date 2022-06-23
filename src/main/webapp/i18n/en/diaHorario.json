@@ -1,0 +1,32 @@
+{
+  "segmaflotApp": {
+    "diaHorario": {
+      "home": {
+        "title": "Dia Horarios",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Dia Horario",
+        "createOrEditLabel": "Create or edit a Dia Horario",
+        "notFound": "No Dia Horarios found"
+      },
+      "created": "A new Dia Horario is created with identifier {{ param }}",
+      "updated": "A Dia Horario is updated with identifier {{ param }}",
+      "deleted": "A Dia Horario is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Dia Horario {{ id }}?"
+      },
+      "detail": {
+        "title": "Dia Horario"
+      },
+      "id": "ID",
+      "dia": "Dia",
+      "horaEntrada": "Hora Entrada",
+      "horaSalida": "Hora Salida",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "horario": "Horario"
+    }
+  }
+}

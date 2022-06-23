@@ -1,0 +1,31 @@
+{
+  "segmaflotApp": {
+    "listaServicio": {
+      "home": {
+        "title": "Lista Servicios",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Lista Servicio",
+        "createOrEditLabel": "Create or edit a Lista Servicio",
+        "notFound": "No Lista Servicios found"
+      },
+      "created": "A new Lista Servicio is created with identifier {{ param }}",
+      "updated": "A Lista Servicio is updated with identifier {{ param }}",
+      "deleted": "A Lista Servicio is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Lista Servicio {{ id }}?"
+      },
+      "detail": {
+        "title": "Lista Servicio"
+      },
+      "id": "ID",
+      "cantidad": "Cantidad",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "servicio": "Servicio",
+      "unidadServicio": "Unidad Servicio"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "segmaflotApp": {
+    "precioVenta": {
+      "home": {
+        "title": "Precio Ventas",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Precio Venta",
+        "createOrEditLabel": "Create or edit a Precio Venta",
+        "notFound": "No Precio Ventas found"
+      },
+      "created": "A new Precio Venta is created with identifier {{ param }}",
+      "updated": "A Precio Venta is updated with identifier {{ param }}",
+      "deleted": "A Precio Venta is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Precio Venta {{ id }}?"
+      },
+      "detail": {
+        "title": "Precio Venta"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "ppu": "Ppu",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "renglonVenta": "Renglon Venta",
+      "inventario": "Inventario"
+    }
+  }
+}

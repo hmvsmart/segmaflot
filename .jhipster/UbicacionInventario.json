@@ -1,0 +1,53 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185702",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "ubicacion_inventario",
+  "fields": [
+    {
+      "fieldName": "status",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "UbicacionInventario",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "seccion",
+      "otherEntityRelationshipName": "ubicacionInventario",
+      "relationshipName": "seccion",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "inventario",
+      "otherEntityRelationshipName": "ubicacionInventario",
+      "relationshipName": "inventario",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

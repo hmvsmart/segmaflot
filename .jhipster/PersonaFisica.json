@@ -1,0 +1,64 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185636",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "persona_fisica",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "apaterno",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "amaterno",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fechaNacimiento",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "curp",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "PersonaFisica",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "persona",
+      "otherEntityRelationshipName": "personaFisica",
+      "ownerSide": true,
+      "relationshipName": "persona",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "no"
+}

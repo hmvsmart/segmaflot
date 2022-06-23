@@ -1,0 +1,33 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185719",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "lista_pedido",
+  "fields": [
+    {
+      "fieldName": "cantidad",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "ListaPedido",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "pedido",
+      "otherEntityRelationshipName": "listaPedido",
+      "relationshipName": "pedido",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "inventario",
+      "otherEntityRelationshipName": "listaPedido",
+      "relationshipName": "inventario",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

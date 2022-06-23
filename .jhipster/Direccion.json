@@ -1,0 +1,67 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185632",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "direccion",
+  "fields": [
+    {
+      "fieldName": "calle",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "numeroExterior",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "numeroInterior",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Direccion",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "direccionPersona",
+      "otherEntityRelationshipName": "direccion",
+      "relationshipName": "direccionPersona",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "viaje",
+      "otherEntityRelationshipName": "origen",
+      "relationshipName": "viaje",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "colonia",
+      "otherEntityRelationshipName": "direccion",
+      "relationshipName": "colonia",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

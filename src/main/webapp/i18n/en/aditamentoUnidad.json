@@ -1,0 +1,32 @@
+{
+  "segmaflotApp": {
+    "aditamentoUnidad": {
+      "home": {
+        "title": "Aditamento Unidads",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Aditamento Unidad",
+        "createOrEditLabel": "Create or edit a Aditamento Unidad",
+        "notFound": "No Aditamento Unidads found"
+      },
+      "created": "A new Aditamento Unidad is created with identifier {{ param }}",
+      "updated": "A Aditamento Unidad is updated with identifier {{ param }}",
+      "deleted": "A Aditamento Unidad is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Aditamento Unidad {{ id }}?"
+      },
+      "detail": {
+        "title": "Aditamento Unidad"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "numeroSerie": "Numero Serie",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "aditamento": "Aditamento",
+      "unidad": "Unidad"
+    }
+  }
+}

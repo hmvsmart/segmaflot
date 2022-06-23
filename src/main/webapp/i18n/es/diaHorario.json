@@ -1,0 +1,32 @@
+{
+  "segmaflotApp": {
+    "diaHorario": {
+      "home": {
+        "title": "Dia Horarios",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Dia Horario",
+        "createOrEditLabel": "Crear o editar Dia Horario",
+        "notFound": "Ningún Dia Horarios encontrado"
+      },
+      "created": "Un nuevo Dia Horario ha sido creado con el identificador {{ param }}",
+      "updated": "Un Dia Horario ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Dia Horario ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Dia Horario {{ id }}?"
+      },
+      "detail": {
+        "title": "Dia Horario"
+      },
+      "id": "ID",
+      "dia": "Dia",
+      "horaEntrada": "Hora Entrada",
+      "horaSalida": "Hora Salida",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "horario": "Horario"
+    }
+  }
+}

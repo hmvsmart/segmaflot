@@ -1,0 +1,33 @@
+{
+  "segmaflotApp": {
+    "licenciaManejo": {
+      "home": {
+        "title": "Licencia Manejos",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Licencia Manejo",
+        "createOrEditLabel": "Crear o editar Licencia Manejo",
+        "notFound": "Ningún Licencia Manejos encontrado"
+      },
+      "created": "Un nuevo Licencia Manejo ha sido creado con el identificador {{ param }}",
+      "updated": "Un Licencia Manejo ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Licencia Manejo ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Licencia Manejo {{ id }}?"
+      },
+      "detail": {
+        "title": "Licencia Manejo"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "tipo": "Tipo",
+      "status": "Status",
+      "fechaExpiracion": "Fecha Expiracion",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "empleado": "Empleado"
+    }
+  }
+}

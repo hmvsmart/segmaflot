@@ -1,0 +1,40 @@
+{
+  "segmaflotApp": {
+    "inventario": {
+      "home": {
+        "title": "Inventarios",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Inventario",
+        "createOrEditLabel": "Crear o editar Inventario",
+        "notFound": "Ningún Inventarios encontrado"
+      },
+      "created": "Un nuevo Inventario ha sido creado con el identificador {{ param }}",
+      "updated": "Un Inventario ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Inventario ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Inventario {{ id }}?"
+      },
+      "detail": {
+        "title": "Inventario"
+      },
+      "id": "ID",
+      "cantidad": "Cantidad",
+      "cantidadMinimaEst": "Cantidad Minima Est",
+      "cantidadMaximaEst": "Cantidad Maxima Est",
+      "status": "Status",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "ubicacionInventario": "Ubicacion Inventario",
+      "resurtir": "Resurtir",
+      "precioVenta": "Precio Venta",
+      "materialServicio": "Material Servicio",
+      "perdida": "Perdida",
+      "listaPedido": "Lista Pedido",
+      "producto": "Producto",
+      "sucursal": "Sucursal"
+    }
+  }
+}

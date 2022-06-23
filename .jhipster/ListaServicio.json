@@ -1,0 +1,53 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185713",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "lista_servicio",
+  "fields": [
+    {
+      "fieldName": "cantidad",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "ListaServicio",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "servicio",
+      "otherEntityRelationshipName": "listaServicio",
+      "relationshipName": "servicio",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "unidadServicio",
+      "otherEntityRelationshipName": "listaServicio",
+      "relationshipName": "unidadServicio",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

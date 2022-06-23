@@ -1,0 +1,26 @@
+{
+  "segmaflotApp": {
+    "colonia": {
+      "home": {
+        "title": "Colonias",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Colonia",
+        "createOrEditLabel": "Create or edit a Colonia",
+        "notFound": "No Colonias found"
+      },
+      "created": "A new Colonia is created with identifier {{ param }}",
+      "updated": "A Colonia is updated with identifier {{ param }}",
+      "deleted": "A Colonia is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Colonia {{ id }}?"
+      },
+      "detail": {
+        "title": "Colonia"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "direccion": "Direccion",
+      "cp": "Cp"
+    }
+  }
+}

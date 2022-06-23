@@ -1,0 +1,33 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185720",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "venta_pedido",
+  "fields": [
+    {
+      "fieldName": "fecha",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "VentaPedido",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "venta",
+      "otherEntityRelationshipName": "ventaPedido",
+      "relationshipName": "venta",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "pedido",
+      "otherEntityRelationshipName": "ventaPedido",
+      "relationshipName": "pedido",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

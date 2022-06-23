@@ -1,0 +1,31 @@
+{
+  "segmaflotApp": {
+    "seccion": {
+      "home": {
+        "title": "Seccions",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Seccion",
+        "createOrEditLabel": "Crear o editar Seccion",
+        "notFound": "Ningún Seccions encontrado"
+      },
+      "created": "Un nuevo Seccion ha sido creado con el identificador {{ param }}",
+      "updated": "Un Seccion ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Seccion ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Seccion {{ id }}?"
+      },
+      "detail": {
+        "title": "Seccion"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "ubicacionInventario": "Ubicacion Inventario",
+      "nivel": "Nivel"
+    }
+  }
+}

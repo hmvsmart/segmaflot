@@ -1,0 +1,27 @@
+{
+  "segmaflotApp": {
+    "perdida": {
+      "home": {
+        "title": "Perdidas",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Perdida",
+        "createOrEditLabel": "Crear o editar Perdida",
+        "notFound": "Ningún Perdidas encontrado"
+      },
+      "created": "Un nuevo Perdida ha sido creado con el identificador {{ param }}",
+      "updated": "Un Perdida ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Perdida ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Perdida {{ id }}?"
+      },
+      "detail": {
+        "title": "Perdida"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "cantidad": "Cantidad",
+      "observaciones": "Observaciones",
+      "inventario": "Inventario"
+    }
+  }
+}

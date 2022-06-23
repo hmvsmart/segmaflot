@@ -1,0 +1,26 @@
+{
+  "segmaflotApp": {
+    "listaPedido": {
+      "home": {
+        "title": "Lista Pedidos",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Lista Pedido",
+        "createOrEditLabel": "Crear o editar Lista Pedido",
+        "notFound": "Ningún Lista Pedidos encontrado"
+      },
+      "created": "Un nuevo Lista Pedido ha sido creado con el identificador {{ param }}",
+      "updated": "Un Lista Pedido ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Lista Pedido ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Lista Pedido {{ id }}?"
+      },
+      "detail": {
+        "title": "Lista Pedido"
+      },
+      "id": "ID",
+      "cantidad": "Cantidad",
+      "pedido": "Pedido",
+      "inventario": "Inventario"
+    }
+  }
+}

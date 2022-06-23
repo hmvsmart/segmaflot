@@ -1,0 +1,53 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185707",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "renglon_venta",
+  "fields": [
+    {
+      "fieldName": "cantidad",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "RenglonVenta",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "venta",
+      "otherEntityRelationshipName": "renglonVenta",
+      "relationshipName": "venta",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "precioVenta",
+      "otherEntityRelationshipName": "renglonVenta",
+      "relationshipName": "precioventa",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

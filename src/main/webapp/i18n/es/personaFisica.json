@@ -1,0 +1,34 @@
+{
+  "segmaflotApp": {
+    "personaFisica": {
+      "home": {
+        "title": "Persona Fisicas",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Persona Fisica",
+        "createOrEditLabel": "Crear o editar Persona Fisica",
+        "notFound": "Ningún Persona Fisicas encontrado"
+      },
+      "created": "Un nuevo Persona Fisica ha sido creado con el identificador {{ param }}",
+      "updated": "Un Persona Fisica ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Persona Fisica ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Persona Fisica {{ id }}?"
+      },
+      "detail": {
+        "title": "Persona Fisica"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "apaterno": "Apaterno",
+      "amaterno": "Amaterno",
+      "fechaNacimiento": "Fecha Nacimiento",
+      "curp": "Curp",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "persona": "Persona"
+    }
+  }
+}

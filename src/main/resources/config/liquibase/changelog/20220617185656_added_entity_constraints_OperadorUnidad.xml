@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity OperadorUnidad.
+    -->
+    <changeSet id="20220617185656-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="unidas_viaje_id"
+                                 baseTableName="operador_unidad"
+                                 constraintName="fk_operador_unidad__unidas_viaje_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="unidad_viaje"/>
+
+        <addForeignKeyConstraint baseColumnNames="empleado_id"
+                                 baseTableName="operador_unidad"
+                                 constraintName="fk_operador_unidad__empleado_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="empleado"/>
+    </changeSet>
+</databaseChangeLog>

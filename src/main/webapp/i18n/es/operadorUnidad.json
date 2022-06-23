@@ -1,0 +1,33 @@
+{
+  "segmaflotApp": {
+    "operadorUnidad": {
+      "home": {
+        "title": "Operador Unidads",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Operador Unidad",
+        "createOrEditLabel": "Crear o editar Operador Unidad",
+        "notFound": "Ningún Operador Unidads encontrado"
+      },
+      "created": "Un nuevo Operador Unidad ha sido creado con el identificador {{ param }}",
+      "updated": "Un Operador Unidad ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Operador Unidad ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Operador Unidad {{ id }}?"
+      },
+      "detail": {
+        "title": "Operador Unidad"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "rol": "Rol",
+      "status": "Status",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "unidasViaje": "Unidas Viaje",
+      "empleado": "Empleado"
+    }
+  }
+}

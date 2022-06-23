@@ -1,0 +1,615 @@
+entity Estado{
+	nombre String
+}
+
+entity Ciudad {
+	nombre String
+}
+
+entity CP {
+	cp Integer
+}
+
+entity Colonia {
+	nombre String
+}
+
+entity Direccion{
+	calle String,
+    numeroExterior Integer,
+    numeroInterior String,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity Sucursal{
+	nombre String,
+    tipoSucursal String,
+    telefono String,
+    status Boolean,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity Persona{
+	
+}
+
+entity PersonaMoral{
+	razonSocial String,
+    rfc String,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity PersonaFisica{
+	nombre String,
+    apaterno String,
+    amaterno String,
+    fechaNacimiento LocalDate,
+    curp String,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity TipoContacto{
+	nombre String,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity Contacto{
+	valor String,
+    etiqueta String,
+    string Boolean,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity DireccionPersona{
+	fecha LocalDate,
+    status Boolean,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity Empleado{
+	rfc String,
+    nss String,
+    finicio LocalDate,
+    puesto String,
+    salario BigDecimal,
+    diaPago String,
+    tipoPago String,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity Horario{
+	fecha LocalDate,
+    status Boolean,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity DiaHorario{
+	dia Integer,
+    horaEntrada Instant,
+    horaSalida Instant,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity LicenciaManejo{
+	fecha LocalDate,
+    tipo String,
+    status Boolean,
+    fechaExpiracion LocalDate,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity ExperienciaHabilidad{
+	fecha LocalDate,
+    descripcion Blob,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity EmpleadoTipoVehiculo{
+	fecha LocalDate,
+    status Boolean,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity Vehiculo{
+	marca String,
+    submarca String,
+    modelo String,
+    generacion String,
+    tipoVehiculo String,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity Unidad{
+	fecha LocalDate,
+	numeroSerie String,
+    kmActual Double,
+    tipoAdquisicion String,
+    imagen Blob,
+    color String,
+    descripcion Blob,
+    status Boolean,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity Poliza{
+	fecha LocalDate,
+    fechaVencimiento LocalDate,
+    numeroPoliza String,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity Aditamento{
+	nombre String,
+    numeroSerie String,
+    descripcion Blob,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity AditamentoUnidad{
+	fecha LocalDate,
+    numeroSerie String,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity Cliente{
+	fecha LocalDate,
+    observaciones Blob,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity VehiculoCliente{
+	fecha LocalDate,
+    numeroSerie String,
+  	color String,
+    status Boolean,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity Viaje{
+	fecha LocalDate,
+    fechaInicio LocalDate,
+    fechaFin LocalDate,
+    horaEmbarque Instant,
+    tipoCarga String,
+    pesoNeto Double,
+    comentarios Blob,
+    status Boolean,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity Itinerario{
+	accion String,
+    fechaHoraEstimada Instant,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity UnidadViaje{
+	fecha LocalDate,
+    status Boolean,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity OperadorUnidad{
+	fecha Instant,
+    rol String,
+    status Boolean,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,    
+}
+
+entity Estante{
+	nombre String,
+    material String,
+    color String,
+    descripcion String,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity Nivel{
+	nombre String,
+  	createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity Seccion{
+	nombre String,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity Producto{
+	nombre String,
+    marca String,
+    tipo String,
+    cantidad Integer,
+	unidadMedida String,
+    material String,
+    color String,
+    uso String,
+    descripcion Blob,
+    otros Blob,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity Inventario{
+	cantidad Integer,
+    cantidadMinimaEst Integer,
+    cantidadMaximaEst Integer,
+    status Boolean,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity UbicacionInventario{
+	status Boolean,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity Resurtir{
+	fecha Instant,
+    total BigDecimal,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity RenglonResurtir{
+	fechaCaducidad LocalDate,
+    cantidad Integer,
+    precioCompra BigDecimal,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity PrecioVenta{
+	fecha LocalDate,
+    ppu BigDecimal,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity Venta{
+	fecha Instant,
+    total BigDecimal,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity RenglonVenta{
+	cantidad Integer,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity Perdida{
+	fecha Instant,
+    cantidad Integer,
+    observaciones Blob
+}
+
+entity Servicio{
+	nombre String,
+    descripcion Blob,
+    duracionEstimada Instant,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity MaterialServicio{
+	fecha LocalDate,
+    cantidad Integer,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity PrecioServicio{
+	fecha LocalDate,
+    costo BigDecimal,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity UnidadServicio{
+	fecha LocalDate,
+    totalEstimado BigDecimal,
+    totalReal BigDecimal,
+    observacionesGenerales Blob,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+} 
+
+entity ListaServicio{
+	cantidad Integer,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity Cita{
+	fecha LocalDate,
+    horaInicio Instant,
+    horaFin Instant,
+    area String,
+    identificador String,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity StatusCita{
+	fecha LocalDate,
+    status	TipoStatusCita,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+enum TipoStatusCita {
+    Activa, Cancelada, Pospuesta, Atendida
+}
+
+entity Cotizacion{
+	fecha LocalDate,
+  	createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity Pago{
+	fecha LocalDate,
+    tipoPago String,
+    monto BigDecimal,
+    area String,
+    identificador String,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity Pedido{
+	fecha LocalDate,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+entity ListaPedido{
+	cantidad Integer
+}
+
+entity VentaPedido{
+	fecha LocalDate
+}
+
+entity Reporte{
+	fecha Instant,
+    nombre String,
+    documento Blob,
+    createByUser String,
+    createdOn Instant,
+    modifyByUser String,
+    modifiedOn Instant,
+    auditStatus String,
+}
+
+relationship OneToMany{
+
+	Estado to Ciudad{estado}
+    Ciudad to CP{ciudad}
+    CP to Colonia{cp}
+    Colonia to Direccion{colonia}
+    Persona to PersonaMoral{persona}
+    TipoContacto to Contacto{tipoContacto}
+    Direccion to DireccionPersona{direccion}
+    Persona to DireccionPersona{persona}
+    Persona to Empleado{persona}
+    Persona to Cliente{persona}
+    Persona to Contacto{persona}
+    PersonaMoral to Sucursal{empresa}
+    Empleado to EmpleadoTipoVehiculo{empleado}
+    Empleado to ExperienciaHabilidad{empleado}
+    Empleado to LicenciaManejo{empleado}
+    Empleado to Horario{empleado}
+    Horario to DiaHorario{horario}
+    Vehiculo to Unidad{vehiculo}
+    Aditamento to AditamentoUnidad{aditamento}
+    Unidad to AditamentoUnidad{unidad}
+    Unidad to Poliza{unidad}
+    Cliente to VehiculoCliente{cliente}
+    Direccion to Viaje{origen}
+    Viaje to Itinerario{viaje}
+    Viaje to UnidadViaje{viaje}
+    Unidad to UnidadViaje{unidad}
+    UnidadViaje to OperadorUnidad{unidasViaje}
+    Empleado to OperadorUnidad{empleado}
+    Estante to Nivel{estante}
+    Nivel to Seccion{nivel}
+    Seccion to UbicacionInventario{seccion}
+    Producto to Inventario{producto}
+    Inventario to UbicacionInventario{inventario}
+    Inventario to Resurtir{inventario}
+    Inventario to PrecioVenta{inventario}
+    Resurtir to RenglonResurtir{resurtir}
+    Venta to RenglonVenta{venta}
+    PrecioVenta to RenglonVenta{precioventa}
+  	Inventario to MaterialServicio{inventario}
+    Inventario to Perdida{inventario}
+    Servicio to MaterialServicio{servicio}
+    Servicio to PrecioServicio{servicio}
+    Servicio to ListaServicio{servicio}
+    UnidadServicio to ListaServicio{unidadServicio}
+    Cliente to UnidadServicio{cliente}
+    Cita to StatusCita{cita}
+    
+    PersonaMoral to Reporte{empresa}
+    PersonaMoral to Pedido{empresa}
+    Pedido to ListaPedido{pedido}
+    Inventario to ListaPedido{inventario}
+    Venta to VentaPedido{venta}
+    Pedido to VentaPedido{pedido}
+    
+    Sucursal to Inventario{sucursal}
+    Sucursal to Empleado{sucursal}
+    
+}
+
+relationship OneToOne{
+
+	PersonaFisica{persona} to Persona
+	    
+}
+

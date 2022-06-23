@@ -1,0 +1,26 @@
+{
+  "segmaflotApp": {
+    "cP": {
+      "home": {
+        "title": "CPS",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo CP",
+        "createOrEditLabel": "Crear o editar CP",
+        "notFound": "Ningún CPS encontrado"
+      },
+      "created": "Un nuevo CP ha sido creado con el identificador {{ param }}",
+      "updated": "Un CP ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un CP ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar CP {{ id }}?"
+      },
+      "detail": {
+        "title": "CP"
+      },
+      "id": "ID",
+      "cp": "Cp",
+      "colonia": "Colonia",
+      "ciudad": "Ciudad"
+    }
+  }
+}

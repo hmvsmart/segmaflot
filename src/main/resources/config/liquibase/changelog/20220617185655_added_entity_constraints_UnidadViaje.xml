@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity UnidadViaje.
+    -->
+    <changeSet id="20220617185655-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="viaje_id"
+                                 baseTableName="unidad_viaje"
+                                 constraintName="fk_unidad_viaje__viaje_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="viaje"/>
+
+        <addForeignKeyConstraint baseColumnNames="unidad_id"
+                                 baseTableName="unidad_viaje"
+                                 constraintName="fk_unidad_viaje__unidad_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="unidad"/>
+    </changeSet>
+</databaseChangeLog>

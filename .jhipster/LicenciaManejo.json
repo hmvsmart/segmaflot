@@ -1,0 +1,59 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185643",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "licencia_manejo",
+  "fields": [
+    {
+      "fieldName": "fecha",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "tipo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "fechaExpiracion",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "LicenciaManejo",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "empleado",
+      "otherEntityRelationshipName": "licenciaManejo",
+      "relationshipName": "empleado",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

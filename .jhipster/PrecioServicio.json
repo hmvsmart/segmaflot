@@ -1,0 +1,51 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185711",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "precio_servicio",
+  "fields": [
+    {
+      "fieldName": "fecha",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "costo",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "PrecioServicio",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "servicio",
+      "otherEntityRelationshipName": "precioServicio",
+      "relationshipName": "servicio",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

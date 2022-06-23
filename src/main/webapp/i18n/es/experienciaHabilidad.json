@@ -1,0 +1,31 @@
+{
+  "segmaflotApp": {
+    "experienciaHabilidad": {
+      "home": {
+        "title": "Experiencia Habilidads",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Experiencia Habilidad",
+        "createOrEditLabel": "Crear o editar Experiencia Habilidad",
+        "notFound": "Ningún Experiencia Habilidads encontrado"
+      },
+      "created": "Un nuevo Experiencia Habilidad ha sido creado con el identificador {{ param }}",
+      "updated": "Un Experiencia Habilidad ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Experiencia Habilidad ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Experiencia Habilidad {{ id }}?"
+      },
+      "detail": {
+        "title": "Experiencia Habilidad"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "descripcion": "Descripcion",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "empleado": "Empleado"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185708",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "perdida",
+  "fields": [
+    {
+      "fieldName": "fecha",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "cantidad",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "observaciones",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "any"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Perdida",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "inventario",
+      "otherEntityRelationshipName": "perdida",
+      "relationshipName": "inventario",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

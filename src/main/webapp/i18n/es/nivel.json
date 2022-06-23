@@ -1,0 +1,31 @@
+{
+  "segmaflotApp": {
+    "nivel": {
+      "home": {
+        "title": "Nivels",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Nivel",
+        "createOrEditLabel": "Crear o editar Nivel",
+        "notFound": "Ningún Nivels encontrado"
+      },
+      "created": "Un nuevo Nivel ha sido creado con el identificador {{ param }}",
+      "updated": "Un Nivel ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Nivel ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Nivel {{ id }}?"
+      },
+      "detail": {
+        "title": "Nivel"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "seccion": "Seccion",
+      "estante": "Estante"
+    }
+  }
+}

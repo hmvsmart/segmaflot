@@ -1,0 +1,101 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185701",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "inventario",
+  "fields": [
+    {
+      "fieldName": "cantidad",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "cantidadMinimaEst",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "cantidadMaximaEst",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Inventario",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "ubicacionInventario",
+      "otherEntityRelationshipName": "inventario",
+      "relationshipName": "ubicacionInventario",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "resurtir",
+      "otherEntityRelationshipName": "inventario",
+      "relationshipName": "resurtir",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "precioVenta",
+      "otherEntityRelationshipName": "inventario",
+      "relationshipName": "precioVenta",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "materialServicio",
+      "otherEntityRelationshipName": "inventario",
+      "relationshipName": "materialServicio",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "perdida",
+      "otherEntityRelationshipName": "inventario",
+      "relationshipName": "perdida",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "listaPedido",
+      "otherEntityRelationshipName": "inventario",
+      "relationshipName": "listaPedido",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "producto",
+      "otherEntityRelationshipName": "inventario",
+      "relationshipName": "producto",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "sucursal",
+      "otherEntityRelationshipName": "inventario",
+      "relationshipName": "sucursal",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

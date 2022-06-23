@@ -1,0 +1,33 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185629",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "ciudad",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Ciudad",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "cP",
+      "otherEntityRelationshipName": "ciudad",
+      "relationshipName": "cP",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "estado",
+      "otherEntityRelationshipName": "ciudad",
+      "relationshipName": "estado",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

@@ -1,0 +1,26 @@
+{
+  "segmaflotApp": {
+    "ventaPedido": {
+      "home": {
+        "title": "Venta Pedidos",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Venta Pedido",
+        "createOrEditLabel": "Crear o editar Venta Pedido",
+        "notFound": "Ningún Venta Pedidos encontrado"
+      },
+      "created": "Un nuevo Venta Pedido ha sido creado con el identificador {{ param }}",
+      "updated": "Un Venta Pedido ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Venta Pedido ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Venta Pedido {{ id }}?"
+      },
+      "detail": {
+        "title": "Venta Pedido"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "venta": "Venta",
+      "pedido": "Pedido"
+    }
+  }
+}

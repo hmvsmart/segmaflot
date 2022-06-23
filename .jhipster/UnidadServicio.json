@@ -1,0 +1,66 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185712",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "unidad_servicio",
+  "fields": [
+    {
+      "fieldName": "fecha",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "totalEstimado",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "totalReal",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "observacionesGenerales",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "any"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "UnidadServicio",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "listaServicio",
+      "otherEntityRelationshipName": "unidadServicio",
+      "relationshipName": "listaServicio",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "cliente",
+      "otherEntityRelationshipName": "unidadServicio",
+      "relationshipName": "cliente",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

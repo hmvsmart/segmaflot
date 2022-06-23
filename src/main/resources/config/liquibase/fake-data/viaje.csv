@@ -1,0 +1,11 @@
+id;fecha;fecha_inicio;fecha_fin;hora_embarque;tipo_carga;peso_neto;comentarios;comentarios_content_type;status;create_by_user;created_on;modify_by_user;modified_on;audit_status
+1;2022-06-17;2022-06-16;2022-06-17;2022-06-17T02:49:54;Gerente SAS Rústico;47932;../fake-data/blob/hipster.png;image/png;false;Optimización Operaciones;2022-06-17T08:32:33;Avon e-business;2022-06-17T06:50:38;Expandido reboot
+2;2022-06-17;2022-06-17;2022-06-17;2022-06-17T12:56:59;virtual Algodón Account;40087;../fake-data/blob/hipster.png;image/png;true;Paseo sexy;2022-06-16T22:01:07;Camino;2022-06-17T08:19:56;redundant dot-com
+3;2022-06-17;2022-06-17;2022-06-17;2022-06-16T20:46:10;Mesa Malaysian connecting;93812;../fake-data/blob/hipster.png;image/png;false;encriptar Guadalupe Eslovenia;2022-06-16T20:29:51;Actualizable models Vietnam;2022-06-17T06:20:54;RAM
+4;2022-06-17;2022-06-17;2022-06-17;2022-06-16T23:42:41;aggregate JSON bleeding-edge;82030;../fake-data/blob/hipster.png;image/png;false;Prolongación;2022-06-17T14:30:17;Juguetería indexing;2022-06-17T05:41:50;deliver generating Account
+5;2022-06-17;2022-06-17;2022-06-16;2022-06-16T23:58:49;compelling Plástico;33014;../fake-data/blob/hipster.png;image/png;false;Paradigma quantifying;2022-06-16T23:24:30;engineer;2022-06-17T04:11:11;Jardines primary
+6;2022-06-16;2022-06-17;2022-06-17;2022-06-16T23:23:37;contingencia;19797;../fake-data/blob/hipster.png;image/png;false;Negro lateral;2022-06-17T09:52:00;Principado deposit Guapo;2022-06-17T18:22:44;Mejorado mobile
+7;2022-06-17;2022-06-16;2022-06-17;2022-06-17T05:37:35;Parque;26716;../fake-data/blob/hipster.png;image/png;false;Mercados payment hard;2022-06-17T00:17:46;scalable Ladrillo;2022-06-17T10:48:18;PCI
+8;2022-06-16;2022-06-16;2022-06-17;2022-06-17T08:25:46;Somoni;17211;../fake-data/blob/hipster.png;image/png;true;Práctico markets;2022-06-17T08:09:59;archivo Desarrollador a;2022-06-17T18:43:31;de Región
+9;2022-06-16;2022-06-17;2022-06-17;2022-06-17T03:26:21;Cuesta secundaria;38285;../fake-data/blob/hipster.png;image/png;false;card;2022-06-17T10:53:05;Hormigon Heredado;2022-06-16T22:39:55;solid enhance Creativo
+10;2022-06-16;2022-06-17;2022-06-17;2022-06-17T09:44:00;Videojuegos deposit;22421;../fake-data/blob/hipster.png;image/png;false;calculating Nakfa;2022-06-17T04:30:18;Configurable grow web;2022-06-17T15:10:17;RSS

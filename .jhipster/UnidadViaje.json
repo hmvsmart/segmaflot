@@ -1,0 +1,63 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185655",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "unidad_viaje",
+  "fields": [
+    {
+      "fieldName": "fecha",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "UnidadViaje",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "operadorUnidad",
+      "otherEntityRelationshipName": "unidasViaje",
+      "relationshipName": "operadorUnidad",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "viaje",
+      "otherEntityRelationshipName": "unidadViaje",
+      "relationshipName": "viaje",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "unidad",
+      "otherEntityRelationshipName": "unidadViaje",
+      "relationshipName": "unidad",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

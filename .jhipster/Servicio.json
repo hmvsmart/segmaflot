@@ -1,0 +1,68 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185709",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "servicio",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descripcion",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "any"
+    },
+    {
+      "fieldName": "duracionEstimada",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Servicio",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "materialServicio",
+      "otherEntityRelationshipName": "servicio",
+      "relationshipName": "materialServicio",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "precioServicio",
+      "otherEntityRelationshipName": "servicio",
+      "relationshipName": "precioServicio",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "listaServicio",
+      "otherEntityRelationshipName": "servicio",
+      "relationshipName": "listaServicio",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

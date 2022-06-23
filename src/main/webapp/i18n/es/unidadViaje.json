@@ -1,0 +1,33 @@
+{
+  "segmaflotApp": {
+    "unidadViaje": {
+      "home": {
+        "title": "Unidad Viajes",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Unidad Viaje",
+        "createOrEditLabel": "Crear o editar Unidad Viaje",
+        "notFound": "Ningún Unidad Viajes encontrado"
+      },
+      "created": "Un nuevo Unidad Viaje ha sido creado con el identificador {{ param }}",
+      "updated": "Un Unidad Viaje ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Unidad Viaje ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Unidad Viaje {{ id }}?"
+      },
+      "detail": {
+        "title": "Unidad Viaje"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "status": "Status",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "operadorUnidad": "Operador Unidad",
+      "viaje": "Viaje",
+      "unidad": "Unidad"
+    }
+  }
+}

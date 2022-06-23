@@ -1,0 +1,33 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185630",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "cp",
+  "fields": [
+    {
+      "fieldName": "cp",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "CP",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "colonia",
+      "otherEntityRelationshipName": "cp",
+      "relationshipName": "colonia",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "ciudad",
+      "otherEntityRelationshipName": "cP",
+      "relationshipName": "ciudad",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

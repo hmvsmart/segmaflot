@@ -1,0 +1,57 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185641",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "horario",
+  "fields": [
+    {
+      "fieldName": "fecha",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Horario",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "diaHorario",
+      "otherEntityRelationshipName": "horario",
+      "relationshipName": "diaHorario",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "empleado",
+      "otherEntityRelationshipName": "horario",
+      "relationshipName": "empleado",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

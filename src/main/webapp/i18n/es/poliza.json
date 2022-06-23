@@ -1,0 +1,32 @@
+{
+  "segmaflotApp": {
+    "poliza": {
+      "home": {
+        "title": "Polizas",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Poliza",
+        "createOrEditLabel": "Crear o editar Poliza",
+        "notFound": "Ningún Polizas encontrado"
+      },
+      "created": "Un nuevo Poliza ha sido creado con el identificador {{ param }}",
+      "updated": "Un Poliza ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Poliza ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Poliza {{ id }}?"
+      },
+      "detail": {
+        "title": "Poliza"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "fechaVencimiento": "Fecha Vencimiento",
+      "numeroPoliza": "Numero Poliza",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "unidad": "Unidad"
+    }
+  }
+}

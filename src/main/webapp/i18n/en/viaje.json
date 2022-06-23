@@ -1,0 +1,39 @@
+{
+  "segmaflotApp": {
+    "viaje": {
+      "home": {
+        "title": "Viajes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Viaje",
+        "createOrEditLabel": "Create or edit a Viaje",
+        "notFound": "No Viajes found"
+      },
+      "created": "A new Viaje is created with identifier {{ param }}",
+      "updated": "A Viaje is updated with identifier {{ param }}",
+      "deleted": "A Viaje is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Viaje {{ id }}?"
+      },
+      "detail": {
+        "title": "Viaje"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "fechaInicio": "Fecha Inicio",
+      "fechaFin": "Fecha Fin",
+      "horaEmbarque": "Hora Embarque",
+      "tipoCarga": "Tipo Carga",
+      "pesoNeto": "Peso Neto",
+      "comentarios": "Comentarios",
+      "status": "Status",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "itinerario": "Itinerario",
+      "unidadViaje": "Unidad Viaje",
+      "origen": "Origen"
+    }
+  }
+}

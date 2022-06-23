@@ -1,0 +1,57 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185639",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "direccion_persona",
+  "fields": [
+    {
+      "fieldName": "fecha",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "DireccionPersona",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "direccion",
+      "otherEntityRelationshipName": "direccionPersona",
+      "relationshipName": "direccion",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "persona",
+      "otherEntityRelationshipName": "direccionPersona",
+      "relationshipName": "persona",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

@@ -1,0 +1,64 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185651",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "cliente",
+  "fields": [
+    {
+      "fieldName": "fecha",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "observaciones",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "any"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Cliente",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "vehiculoCliente",
+      "otherEntityRelationshipName": "cliente",
+      "relationshipName": "vehiculoCliente",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "unidadServicio",
+      "otherEntityRelationshipName": "cliente",
+      "relationshipName": "unidadServicio",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "persona",
+      "otherEntityRelationshipName": "cliente",
+      "relationshipName": "persona",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

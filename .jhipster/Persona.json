@@ -1,0 +1,46 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185634",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "persona",
+  "fields": [],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Persona",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "personaMoral",
+      "otherEntityRelationshipName": "persona",
+      "relationshipName": "personaMoral",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "direccionPersona",
+      "otherEntityRelationshipName": "persona",
+      "relationshipName": "direccionPersona",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "empleado",
+      "otherEntityRelationshipName": "persona",
+      "relationshipName": "empleado",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "cliente",
+      "otherEntityRelationshipName": "persona",
+      "relationshipName": "cliente",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "contacto",
+      "otherEntityRelationshipName": "persona",
+      "relationshipName": "contacto",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

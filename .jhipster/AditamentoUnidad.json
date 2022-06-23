@@ -1,0 +1,57 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185650",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "aditamento_unidad",
+  "fields": [
+    {
+      "fieldName": "fecha",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "numeroSerie",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "AditamentoUnidad",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "aditamento",
+      "otherEntityRelationshipName": "aditamentoUnidad",
+      "relationshipName": "aditamento",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "unidad",
+      "otherEntityRelationshipName": "aditamentoUnidad",
+      "relationshipName": "unidad",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

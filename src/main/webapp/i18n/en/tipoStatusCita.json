@@ -1,0 +1,11 @@
+{
+  "segmaflotApp": {
+    "TipoStatusCita": {
+      "null": "",
+      "Activa": "Activa",
+      "Cancelada": "Cancelada",
+      "Pospuesta": "Pospuesta",
+      "Atendida": "Atendida"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segmaflotApp": {
+    "sucursal": {
+      "home": {
+        "title": "Sucursals",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Sucursal",
+        "createOrEditLabel": "Crear o editar Sucursal",
+        "notFound": "Ningún Sucursals encontrado"
+      },
+      "created": "Un nuevo Sucursal ha sido creado con el identificador {{ param }}",
+      "updated": "Un Sucursal ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Sucursal ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Sucursal {{ id }}?"
+      },
+      "detail": {
+        "title": "Sucursal"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "tipoSucursal": "Tipo Sucursal",
+      "telefono": "Telefono",
+      "status": "Status",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "inventario": "Inventario",
+      "empleado": "Empleado",
+      "empresa": "Empresa"
+    }
+  }
+}

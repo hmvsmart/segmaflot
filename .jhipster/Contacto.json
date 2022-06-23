@@ -1,0 +1,61 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185638",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "contacto",
+  "fields": [
+    {
+      "fieldName": "valor",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "etiqueta",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "string",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Contacto",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "tipoContacto",
+      "otherEntityRelationshipName": "contacto",
+      "relationshipName": "tipoContacto",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "persona",
+      "otherEntityRelationshipName": "contacto",
+      "relationshipName": "persona",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

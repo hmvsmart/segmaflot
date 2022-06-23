@@ -1,0 +1,33 @@
+{
+  "segmaflotApp": {
+    "contacto": {
+      "home": {
+        "title": "Contactos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Contacto",
+        "createOrEditLabel": "Create or edit a Contacto",
+        "notFound": "No Contactos found"
+      },
+      "created": "A new Contacto is created with identifier {{ param }}",
+      "updated": "A Contacto is updated with identifier {{ param }}",
+      "deleted": "A Contacto is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Contacto {{ id }}?"
+      },
+      "detail": {
+        "title": "Contacto"
+      },
+      "id": "ID",
+      "valor": "Valor",
+      "etiqueta": "Etiqueta",
+      "string": "String",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "tipoContacto": "Tipo Contacto",
+      "persona": "Persona"
+    }
+  }
+}

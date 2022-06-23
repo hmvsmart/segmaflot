@@ -1,0 +1,32 @@
+{
+  "segmaflotApp": {
+    "direccionPersona": {
+      "home": {
+        "title": "Direccion Personas",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Direccion Persona",
+        "createOrEditLabel": "Create or edit a Direccion Persona",
+        "notFound": "No Direccion Personas found"
+      },
+      "created": "A new Direccion Persona is created with identifier {{ param }}",
+      "updated": "A Direccion Persona is updated with identifier {{ param }}",
+      "deleted": "A Direccion Persona is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Direccion Persona {{ id }}?"
+      },
+      "detail": {
+        "title": "Direccion Persona"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "status": "Status",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "direccion": "Direccion",
+      "persona": "Persona"
+    }
+  }
+}

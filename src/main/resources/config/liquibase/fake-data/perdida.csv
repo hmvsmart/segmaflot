@@ -1,0 +1,11 @@
+id;fecha;cantidad;observaciones;observaciones_content_type
+1;2022-06-17T07:17:35;7360;../fake-data/blob/hipster.png;image/png
+2;2022-06-17T16:52:18;69981;../fake-data/blob/hipster.png;image/png
+3;2022-06-17T01:03:03;62745;../fake-data/blob/hipster.png;image/png
+4;2022-06-17T18:38:43;64288;../fake-data/blob/hipster.png;image/png
+5;2022-06-17T18:29:50;38326;../fake-data/blob/hipster.png;image/png
+6;2022-06-17T01:26:50;65835;../fake-data/blob/hipster.png;image/png
+7;2022-06-17T18:17:32;66613;../fake-data/blob/hipster.png;image/png
+8;2022-06-17T05:16:57;81321;../fake-data/blob/hipster.png;image/png
+9;2022-06-17T15:17:03;96781;../fake-data/blob/hipster.png;image/png
+10;2022-06-17T10:10:26;67;../fake-data/blob/hipster.png;image/png

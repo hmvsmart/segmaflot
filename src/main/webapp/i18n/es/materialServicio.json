@@ -1,0 +1,32 @@
+{
+  "segmaflotApp": {
+    "materialServicio": {
+      "home": {
+        "title": "Material Servicios",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Material Servicio",
+        "createOrEditLabel": "Crear o editar Material Servicio",
+        "notFound": "Ningún Material Servicios encontrado"
+      },
+      "created": "Un nuevo Material Servicio ha sido creado con el identificador {{ param }}",
+      "updated": "Un Material Servicio ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Material Servicio ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Material Servicio {{ id }}?"
+      },
+      "detail": {
+        "title": "Material Servicio"
+      },
+      "id": "ID",
+      "fecha": "Fecha",
+      "cantidad": "Cantidad",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "inventario": "Inventario",
+      "servicio": "Servicio"
+    }
+  }
+}

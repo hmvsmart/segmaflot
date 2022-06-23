@@ -1,0 +1,33 @@
+{
+  "segmaflotApp": {
+    "estante": {
+      "home": {
+        "title": "Estantes",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Estante",
+        "createOrEditLabel": "Crear o editar Estante",
+        "notFound": "Ningún Estantes encontrado"
+      },
+      "created": "Un nuevo Estante ha sido creado con el identificador {{ param }}",
+      "updated": "Un Estante ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Estante ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Estante {{ id }}?"
+      },
+      "detail": {
+        "title": "Estante"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "material": "Material",
+      "color": "Color",
+      "descripcion": "Descripcion",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "nivel": "Nivel"
+    }
+  }
+}

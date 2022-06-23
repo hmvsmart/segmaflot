@@ -1,0 +1,39 @@
+{
+  "segmaflotApp": {
+    "producto": {
+      "home": {
+        "title": "Productos",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Producto",
+        "createOrEditLabel": "Crear o editar Producto",
+        "notFound": "Ningún Productos encontrado"
+      },
+      "created": "Un nuevo Producto ha sido creado con el identificador {{ param }}",
+      "updated": "Un Producto ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Producto ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Producto {{ id }}?"
+      },
+      "detail": {
+        "title": "Producto"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "marca": "Marca",
+      "tipo": "Tipo",
+      "cantidad": "Cantidad",
+      "unidadMedida": "Unidad Medida",
+      "material": "Material",
+      "color": "Color",
+      "uso": "Uso",
+      "descripcion": "Descripcion",
+      "otros": "Otros",
+      "createByUser": "Create By User",
+      "createdOn": "Created On",
+      "modifyByUser": "Modify By User",
+      "modifiedOn": "Modified On",
+      "auditStatus": "Audit Status",
+      "inventario": "Inventario"
+    }
+  }
+}

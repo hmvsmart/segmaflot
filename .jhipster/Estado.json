@@ -1,0 +1,27 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185628",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "estado",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Estado",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "ciudad",
+      "otherEntityRelationshipName": "estado",
+      "relationshipName": "ciudad",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

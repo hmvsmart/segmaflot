@@ -1,0 +1,63 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617185714",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "cita",
+  "fields": [
+    {
+      "fieldName": "fecha",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "horaInicio",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "horaFin",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "area",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "identificador",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyByUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "auditStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Cita",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "statusCita",
+      "otherEntityRelationshipName": "cita",
+      "relationshipName": "statusCita",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}
